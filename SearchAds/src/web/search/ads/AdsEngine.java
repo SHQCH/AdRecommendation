@@ -65,7 +65,7 @@ public class AdsEngine {
 				
 				if(!indexBuilder.buildInvertIndex(ad) || !indexBuilder.buildForwardIndex(ad))
 				{
-					// add the ad data into sql db, cache the <keyword: AdID_set> into memcache
+					//to do: add logging failed to ad data into sql db, or cache the <keyword: AdID_set> into memcache
 				}
 			}
 
@@ -85,7 +85,7 @@ public class AdsEngine {
 				camp.budget = budget;
 				if(!indexBuilder.updateBudget(camp))
 				{
-					//log, add the camp data into sql db
+					//to do: add logging, fail to add the camp data into sql db
 				}			
 			}
 		}catch (IOException e) {

@@ -26,10 +26,10 @@ def store_feature(feature_dir,key_prefix,memcache_client):
 
 if __name__ == "__main__":
     input_dir = "/Users/mac/project/SearchAds/data/log/"
-    #client = memcache.Client([('127.0.0.1', 11218)])
-    client = libmc.Client(
-    ["127.0.0.1:11218"],comp_threshold=0, noreply=False, prefix=None,hash_fn=MC_HASH_MD5, failover=False
-    )
+    client = memcache.Client([('127.0.0.1', 11218)])
+    #client = libmc.Client(
+    #["127.0.0.1:11218"],comp_threshold=0, noreply=False, prefix=None,hash_fn=MC_HASH_MD5, failover=False
+    #)
     client.config(MC_POLL_TIMEOUT, 100)  # 100 ms
     client.config(MC_CONNECT_TIMEOUT, 300)  # 300 ms
     client.config(MC_RETRY_TIMEOUT, 5)  # 5 s
