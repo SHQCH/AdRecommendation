@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00398098-8a4c-4908-8611-55eaa37c10d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SearchAds/src/web/search/ads/AdsEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/SearchAds/src/web/search/ads/AdsEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pClick related code/store_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/pClick related code/store_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pClick related code/store_feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="-41">
               <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -177,11 +176,6 @@
               <item name="Ads Recommendation System" type="462c0819:PsiDirectoryNode" />
               <item name="AdRecommendation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Ads Recommendation System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ads Recommendation System" type="462c0819:PsiDirectoryNode" />
-              <item name="pClick related code" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -226,7 +220,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -451,7 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pClick related code/store_feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="-41">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
